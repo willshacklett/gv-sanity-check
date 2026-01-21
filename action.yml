@@ -1,0 +1,7 @@
+name: "GV Sanity Check"
+description: "Detects stability drift between metric snapshots"
+author: "Will Shacklett"
+
+runs:
+  using: "python"
+  main: "gv_check.py"
